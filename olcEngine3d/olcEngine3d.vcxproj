@@ -139,10 +139,13 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="olcEngine3d.cpp" />
+    <ClCompile Include="olcEngine3d.cpp">
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\Downloads2\Javidx9-master\ConsoleGameEngine\olcConsoleGameEngine.h" />
+    <ClInclude Include="..\..\..\Downloads2\Javidx9-master\PixelGameEngine\BiggerProjects\SavingSedit\olcPixelGameEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
