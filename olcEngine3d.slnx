@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="olcEngine3d/olcEngine3d.vcxproj" />
+  <Project Path="olcEngine3d/olcEngine3d.vcxproj" Id="a57b2636-09fc-4767-a222-560de924bf87" />
 </Solution>
